@@ -2,7 +2,7 @@
 font-family: "Roboto", serif; */
 
 body {
-font-family: "Roboto", serif;
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;;
 }
@@ -62,19 +62,25 @@ a {
 .page-title {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
-.btn {  cursor: pointer;
+.btn {  font-family: inherit;
+          cursor: pointer;
         background-color: #4d5ae5;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
             color: #fff;
+}
+
+.btn:hover, 
+.btn:focus {
+        background-color: #404BBF;
 }
 
 .featur-subtitle {
@@ -118,10 +124,14 @@ a {
 .portfolio-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+}
+
+.portfolio-item {
+        background-color: #FFFFFF
 }
 
 .portfolio-subtitle {
